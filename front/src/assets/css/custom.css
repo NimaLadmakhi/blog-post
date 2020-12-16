@@ -1,0 +1,26 @@
+@font-face {
+    src        : url('../fonts/iransans.woff2');
+    font-family: 'iransans';
+}
+
+body {
+    direction  : rtl !important;
+    overflow-x : hidden;
+    font-family: 'iransans', sans-serif;
+}
+
+.header-nav a {
+    color: #fff;
+}
+
+.post img.post-image {
+    height    : 500px;
+    width     : 100%;
+    object-fit: cover;
+}
+
+.post .image-user {
+    height       : 100px;
+    width        : 100px;
+    border-radius: 50%;
+}
